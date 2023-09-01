@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": " php artisan serve",
+        "migrate": "php artisan migrate",
+        "rollback": "php artisan migrate:rollback",
+        "seed": "php artisan db:seed",
+        "fresh": "npm run migrate && npm run seed && npm run start"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.8.0",
+        "vite": "^4.0.0"
+    }
+}
